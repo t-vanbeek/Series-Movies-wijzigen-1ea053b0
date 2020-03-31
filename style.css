@@ -1,0 +1,15 @@
+.series, .films {
+    display: flex;
+}
+
+.serietitel, .serierating, .filmtitel, .filmduur {
+    display: block;
+    text-align: center;
+}
+.serietitels, .filmtitels {
+    display: block;
+    text-align: left;
+}
+.titel {
+    display: table;
+}
