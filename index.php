@@ -70,7 +70,7 @@ $_GET['films'] = 'title';
             <?php
             $stmt = $pdo->query("SELECT id FROM series ORDER BY " . $_GET['series']);
             foreach ($stmt as $row) {
-                echo "<a href='editseries.php?id=" . $row['id'] . "'> Bekijk details </a><br>";
+                echo "<a href='editseries.php?id=" . $row['id'] . "'> pas aan </a><br>";
             }
             ?>
         </div>
@@ -117,7 +117,7 @@ $_GET['films'] = 'title';
             <?php
             $stmt = $pdo->query("SELECT id FROM movies ORDER BY " . $_GET['films']);
             foreach ($stmt as $row) {
-                echo "<a href='editfilms.php?id=" . $row['id'] . "'> Bekijk details </a><br>";
+                echo "<a href='editfilms.php?id=" . $row['id'] . "'> pas aan </a><br>";
             }
             ?>
         </div>
